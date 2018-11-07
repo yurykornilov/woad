@@ -16,7 +16,7 @@ Released   : 20120624
 
 a {
 	text-decoration: underline;
-	color: #0F7F8C;
+	color: #0E7A86;
 }
 
 a:hover {
@@ -57,7 +57,7 @@ h2,h3,h4 {
 }
 
 h3 {
-    color: #209D9D;
+    color: #1B8383;
     font-size: 1.3em;
     text-align: left;
     letter-spacing: 1px;
@@ -546,7 +546,7 @@ table.dataview tr td th {
 }
 
 table.dataview tr th {
-	background-color: #D3D3D3;
+	background-color: #F3F3F3;
 	border-bottom: 1px solid;
 	border-top: 1px solid;
 	color: #6F6F6F;
@@ -836,7 +836,7 @@ table.table-filter {
 }
 
 table.table-filter tr th {
-	background-color: #D3D3D3;
+	background-color: #F3F3F3;
 	border-bottom: 1px solid;
 	border-top: 1px solid;
 	color: black;

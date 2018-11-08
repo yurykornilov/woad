@@ -9,7 +9,10 @@ Version    : 1.0
 Released   : 20120624
 */
 
-* {
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
@@ -137,6 +140,20 @@ ul {
 
 ul h4 {
 	margin-bottom: 0.35em;
+}
+
+select,
+input[type=text],
+textarea {
+	padding: 0.5em;
+}
+
+textarea {
+	line-height: 1.5;
+}
+
+br + select {
+	margin-top: 0.5em;
 }
 
 .box {
@@ -561,7 +578,7 @@ table.dataview tr th {
 }
 
 table.dataview thead tr.headers th {
-    padding-left: 8px;
+    padding: 8px;
 }
 
 table.dataview tr th.wicket_orderDown {
@@ -690,7 +707,7 @@ table.action-table {
 }
 
 table.action-table td {
-	padding: 0;
+	padding: 0.25em;
 }
 
 table.action-table td.label {
@@ -708,8 +725,8 @@ table.action-table tr td input[type="text"], input[type="password"] {
 }
 
 table.action-table tr td span.searchDateRangePanel input[type="text"] {
-    min-width: 60px;
-    max-width: 60px;
+    min-width: 100px;
+    max-width: 100px;
     font-size: 1em;
 }
 
